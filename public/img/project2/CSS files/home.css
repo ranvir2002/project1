@@ -1,0 +1,51 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    border: 5px solid;
+    font-size: 50px;
+    text-align: center;
+    font-family: monospace;
+    background: linear-gradient(to bottom right, rgb(39, 213, 213), rgb(235, 232, 232));
+    color: black;
+}
+#nav{
+    display: inline-block;
+    background-color: rgb(22, 3, 69);
+}
+#myimg{
+    width: 250px;
+    height: auto;
+    float: right;
+    margin-top: 0px;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(22, 3, 69);
+    color: white;
+    border: 5px solid rgb(22, 3, 69);
+}
+a:link{color: white;}
+a:hover{color: red;}
+a:visited{color: rgb(38, 235, 206);}
+#intro{
+    font-size: 35px;
+    background-color: rgb(22, 22, 36);
+    color: white;
+}
+#myintro{
+    margin: 5px;
+    font-size: 23px;
+}
+#sitemap{
+    text-align: center;
+}
+footer{
+    margin: 0px;
+    text-align: center; 
+    margin-top: 20px; 
+    background: linear-gradient(to bottom left, rgb(22, 22, 36), rgb(11, 10, 20)); 
+    color: white
+}

@@ -1,0 +1,45 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<!--<img src="img/logo.png" alt="logo">-->
+
+<main class="container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to <%= title %> Page</h1>
+    </div>
+
+    <div class="row" style="display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 30px;">
+        <div class="col-md-4" style="margin-bottom: 20px; display: flex;">
+            <div class="card" style="height: 100%; flex-direction: column;">
+                <img src="/img/bug.png" class="card-img-top" alt="Project 1" style="height: 50%; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <a href="/img/project1/index.html" target="_blank"><h5 class="card-title">Bug Smasher Game</h5></a>
+                    <p class="card-text">The Bug Smasher game is an engaging and addictive web-based game where the objective is to smash as many bugs as possible within a given time limit. The player's score increases every time a bug is successfully smashed by clicking on it. As the player's score increases, the speed at which the bugs change their position becomes progressively faster, adding an extra level of challenge and excitement to the game.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" style="margin-bottom: 20px; display: flex;">
+            <div class="card" style="height: 100%; flex-direction: column;">
+                <img src="/img/p2logo.jpg" class="card-img-top" alt="Project 2" style="height: 50%; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <a href="/img/project2/index.html" target="_blank"><h5 class="card-title">Real Estate Website</h5></a>
+                    <p class="card-text">The Real Estate Website is a comprehensive online platform designed to simplify the process of buying and selling properties. With a sleek and user-friendly interface, this website showcases three property listings, each with its unique features and details. Whether you're a prospective buyer searching for a dream home or a seller looking to attract potential clients, this website offers a seamless browsing experience.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4" style="margin-bottom: 20px; display: flex;">
+            <div class="card" style="height: 100%; flex-direction: column;">
+                <img src="/img/p3logo.jpg" class="card-img-top" alt="Project 3" style="height: 50%; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <a href="/img/project3/SRS.pdf" target="_blank"><h5 class="card-title">SRS for MyDentist App</h5></a>
+                    <p class="card-text">The Software Requirements Specification (SRS) for the Online Appointment Booking System aims to provide a detailed outline of the functionalities and features of a software solution that enables patients to conveniently book their appointments with dentists online, eliminating the need for long queues and wait times at dental clinics.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>

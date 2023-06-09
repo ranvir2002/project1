@@ -1,0 +1,43 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+#header{
+    border: 5px solid;
+    font-size: 50px;
+    text-align: center;
+    font-family: monospace;
+    background: linear-gradient(to bottom right, rgb(39, 213, 213), rgb(235, 232, 232));
+    color: black;
+}
+#nav{
+    display: inline-block;
+    background-color: rgb(22, 3, 69);
+}
+#main{
+    border: 0px solid red;
+    border-radius: 20px;
+    background-color: rgba(81, 76, 76, 0.386);
+    width: auto;
+    height: auto;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: block;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+form{
+    margin-left: 150px;
+}
+#cmnts{
+    vertical-align: top;
+}
+footer{
+    margin: 0px;
+    text-align: center; 
+    margin-top: 20px; 
+    background: linear-gradient(to bottom left, rgb(22, 22, 36), rgb(11, 10, 20)); 
+    color: white
+}

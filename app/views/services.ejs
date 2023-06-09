@@ -1,0 +1,43 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+<!--<img src="img/logo.png" alt="logo">-->
+
+<main class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome to <%= title %> Page</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card service-card" style="display: flex; flex-direction: column; height: 100%;">
+                <img src="/img/sdd.jpg" class="card-img-top" alt="Service 1" style="flex-shrink: 0; height: 200px; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <h3 class="card-title">Software Design Documentation</h3>
+                    <p class="card-text">Streamline your software development process with our comprehensive Software Design Documentation service. Ensure the success of your projects with detailed and well-structured software design documentation provided by our experienced team.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card service-card" style="display: flex; flex-direction: column; height: 100%;">
+                <img src="/img/wd.jpg" class="card-img-top" alt="Service 2" style="flex-shrink: 0; height: 200px; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <h3 class="card-title">Web Development</h3>
+                    <p class="card-text">Unlock your online potential with our expert Web Development solutions. We create stunning, high-performance websites tailored to your unique business needs. We specialize in creating responsive and user-friendly websites that drive engagement and help you achieve your online goals. Feel free to contact us.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card service-card" style="display: flex; flex-direction: column; height: 100%;">
+                <img src="/img/ma.jpg" class="card-img-top" alt="Service 3" style="flex-shrink: 0; height: 200px; object-fit: cover;">
+                <div class="card-body" style="flex-grow: 1;">
+                    <h3 class="card-title">Mobile Apps</h3>
+                    <p class="card-text">Transform your ideas into powerful mobile applications. Our expert team crafts innovative and user-friendly mobile apps tailored to your business needs, providing seamless experiences across iOS and Android platforms. Our expert team crafts intuitive and feature-rich mobile apps that engage users and drive business growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<%- include ('partials/bottom_nav.ejs') %>
+<%- include ('partials/footer.ejs') %>
